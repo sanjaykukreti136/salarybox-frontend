@@ -1,0 +1,41 @@
+.main {
+  margin: 0;
+  padding: 0;
+  width: 70vw;
+  border: 2px solid black;
+  height: 100vh;
+}
+
+#cal-btn {
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  background-color: aquamarine;
+  font-size: 1rem;
+  font-family: monospace;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+::-webkit-datetime-edit-fields-wrapper {
+  background: aquamarine;
+  border: none;
+}
+::-webkit-datetime-edit-text {
+  color: red;
+  padding: 0 0.3em;
+}
+::-webkit-datetime-edit-month-field {
+  color: blue;
+}
+::-webkit-datetime-edit-day-field {
+  color: green;
+}
+::-webkit-datetime-edit-year-field {
+  color: purple;
+}
+::-webkit-inner-spin-button {
+  display: none;
+}
+::-webkit-calendar-picker-indicator {
+  background: orange;
+}

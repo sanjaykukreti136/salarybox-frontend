@@ -1,0 +1,41 @@
+.main1 {
+  width: 30vw;
+  border: 2px solid red;
+  height: 100vh;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+h4 {
+  font-family: cursive;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+.matrix {
+  text-align: center;
+  display: flex;
+  font-family: fantasy;
+  font-size: 1rem;
+  margin-top: 2rem;
+  letter-spacing: 2px;
+  margin-left: 7rem;
+}
+
+select {
+  margin-left: 6px;
+}
+
+#button-sub {
+  width: 5rem;
+  height: 2rem;
+  margin: 3rem;
+  border: 2px solid blue;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
